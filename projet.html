@@ -1,0 +1,78 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> ePortfolio </title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+        <!-- mobile specific info ... mobile specify windows size to 800/900 whereas device-width is less in general, resulting in small texte etc.- those meta correct this... -->
+        <meta name="HandheldFriendly" content="true" />
+        <meta name="viewport" content="width=device-width, height=device-height, user-scalable=no" />
+        <!-- end mobile specific info -->
+        <link rel="stylesheet" type="text/css" href="css/menu01.css" media="only screen and (min-width: 1220px)"/>
+
+				<link rel="stylesheet" type="text/css" href="css/menu02.css" media="only screen and (min-width: 600px) and (max-width: 1220px)"/>
+				<link rel="stylesheet" type="text/css" href="css/menu03.css" media="only screen and (max-width: 600px)"/>
+				<link rel="stylesheet" type="text/css" href="css/accueil01.css"/>
+        	</head>
+	<body ontouchstart="">
+
+		<div id="globale">
+
+			<header> <!-- balise html5 equivalant à <div id="header"> -->
+				<div id="nom">
+					<a href="projet.html"><h1> Portfolio </h1></a>
+					<p><b> Mon e-Portfolio </b></p>
+				</div>
+			</header>
+
+
+
+    <div class="body">
+
+			<nav>
+				<div id="menu">
+					<ul id="menuPrincipal">
+						<li><a href="projet.html">Accueil</a></li>
+						<li><a href="html/competences.html">Compétences</a></li>
+						<li><a href="html/formulaire.html">Formulaire</a>
+						<li class="active">
+							<a href="html/loisirs.html">Loisirs</a>
+								<ul class="loisirsnav">
+									<li><a href="html/loisirs01.html">Judo</a></li>
+									<li><a href="html/loisirs02.html">Sports</a></li>
+									<li><a href="html/loisirs03.html">Musique</a></li>
+								</ul>
+						</li>
+					</ul>
+					<!-- </li></ul> -->
+				</div> <!-- fin id=menu -->
+			</nav>
+
+			<div class="page">
+				<section id="sec1">
+					<article class="article">
+
+						<h1>Bienvenue</h1>
+						<p> Bienvenue sur mon ePortfolio. Ici vous allez en découvrir plus sur moi : sur mes compétences et mes passions. Vous pouvez aussi laisser un commentaire dans la section formulaire</p>
+						<article class="article01">
+							<a href="html/competences.html"><h1><img src="images/fleche.png" id="imgCompetences"/>Compétences</h1></a>
+
+							<img src="images/competences.png" alt="competences" class="screenshot"/>
+							</article>
+						<article class="article01">
+							<a href="html/experiences.html"><h1><img src="images/fleche.png" id="imgExperience"/>Formulaire</h1></a>
+							<img src="images/formulaire.png" alt="formulaire" class="screenshot"/>
+						</article>
+						<article class="article01">
+							<a href="html/loisirs.html"><h1><img src="images/fleche.png" id="imgLoisirs"/>Loisirs</h1></a>
+							<img src="images/loisirs.png" alt="loisirs" class="screenshot"/>
+						</article>
+					</article>
+				</section>
+			</div> <!-- fin id="page"-->
+			<footer><p>-----------------fin-----------------</p>
+			</footer>
+
+		</div> <!-- fin id="globale"-->
+	</body>
+</html>
