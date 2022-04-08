@@ -1,0 +1,92 @@
+*{
+  font-family: monospace;
+  transition: all 1s ease;
+}
+li, a {
+  transition: all 0s ease;
+}
+.article01 {
+  border: solid;
+}
+table {
+  display: none;
+}
+#cache {
+  text-align: center;
+}
+h1:hover #imgCompetences, h1:hover #imgExperience, h1:hover #imgLoisirs {
+  display: inline;
+}
+header h1 {
+  color: #DA70D6;
+  text-shadow: #FF00FF 1px 0 15px;
+  font-size : 300%;
+  padding : 0.25em;padding-bottom: 0;
+}
+header h1:hover {
+  color : #FF00FF;
+  text-shadow: #FF00FF 1px 0 15px;
+}
+header p{
+  padding: 0;
+  text-align: center;
+  color : #00BFFF;
+  text-shadow: #00FFFF 1px 0 15px;
+}
+h1{
+  font-size: 150%;
+  text-align: center;
+  padding: 1em;
+}
+p, a {
+  font-size: 150%;
+  padding: 1em;
+  text-align: justify;
+}
+.article01 {
+  position: relative;
+  margin-left: 5em; margin-right: 5em; margin-bottom: 2em;
+}
+
+.article > h1 {
+  text-align: center;
+  font-size: 250%;
+  padding: 0.5em;
+}
+.article{
+  border: solid;
+  background-color: #BDBDBD;
+}
+
+#sec1 {
+  padding-left: 2em; padding-right: 2em;
+
+}
+
+#sec1 h1 {
+  background-color: #A4A4A4;
+}
+
+.article01 a h1{
+  text-align: center;
+  margin: 0;
+  padding : 1em;
+  font-size: 125%;
+  color : #000000;
+}
+
+.article01 a {
+  padding : 0;
+}
+
+.article01:hover h1 {
+  background-color: #424242;
+}
+.screenshot {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: dotted;
+  margin-top: 1em; margin-bottom: 1em;
+}

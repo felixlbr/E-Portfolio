@@ -1,0 +1,12 @@
+* {
+  margin : 0;
+  padding: 0;
+}
+li {
+  list-style-type: none;
+}
+
+p span{
+  font-weight: bold;
+  text-decoration: underline;
+}

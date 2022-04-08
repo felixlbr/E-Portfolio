@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Loisirs</title>
+    <link rel="stylesheet" type="text/css" href="../css/menu01.css" media="only screen and (min-width: 1200px)"/>
+    <link rel="stylesheet" type="text/css" href="../css/accueil01.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/loisirs.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/menu02.css" media="only screen and (min-width: 600px) and (max-width: 1200px)"/>
+    <link rel="stylesheet" type="text/css" href="../css/menu03.css" media="only screen and (max-width: 600px)"/>
+  </head>
+  <body>
+    <div id="globale">
+      <header> <!-- balise html5 equivalant à <div id="header"> -->
+        <div id="nom">
+          <a href="../projet.html"><h1> Portfolio </h1></a>
+          <p><b> Musique </b></p>
+        </div>
+      </header>
+      <div class="body">
+
+  			<nav>
+  				<div id="menu">
+  					<ul id="menuPrincipal">
+  						<li><a href="../projet.html">Accueil</a></li>
+  						<li><a href="competences.html">Compétences</a></li>
+  						<li><a href="formulaire.html">Formulaire</a>
+  						<li class="active">
+  							<a href="loisirs.html">Loisirs</a>
+  								<ul class="loisirsnav">
+                    <li><a href="loisirs01.html">Judo</a></li>
+  									<li><a href="loisirs02.html">Sports</a></li>
+  									<li><a href="loisirs03.html">Musique</a></li>
+  								</ul>
+  						</li>
+  					</ul>
+  					<!-- </li></ul> -->
+  				</div> <!-- fin id=menu -->
+  			</nav>
+
+        <div class="page">
+  				<section id="sec1">
+  					<article class="article">
+
+  						<h1>Musique</h1>
+  						<p> Voici la section musique. J'affectionne beaucoup écouter la musique autant que la jouer.</p>
+  						<article class="article01">
+  							<h1>Piano</h1>
+                <ul>
+                  <li><p><b>2007 - 2021</b> : 14 ans de piano </p>
+                    <ul class="listeIn">
+                      <li><p><b>2007 - 2008</b> : Conservatoires de Rueil-Malmaison (92)</p></li>
+                      <li><p><b>2008 - 2011</b> : Conservatoires de Montigny-le-Bretonneux (78)</p></li>
+                      <li><p><b>2011 - 2021</b> : Association l’Art par la Joie de Voisins le Bretonneux(78)</p></li>
+                    </ul>
+                  </li>
+                </ul>
+  				    </article>
+              <article class="article01">
+  							<h1>Exemples de morceaux </h1>
+                <div id="morceau1">
+                <p>Comptine d un autre ete - Yann Tiersen</p>
+                <audio  loop="loop" controls="controls" > <!-- autoplay="autoplay" -->
+                <source src="../media/Yann Tiersen - Comptine_d_un_autre_ete.m4a" type="audio/mp4" />
+                </audio>
+              </div>
+              <div id="morceau2">
+              <p>Photograph - Ed Sheeran</p>
+              <audio  loop="loop" controls="controls" > <!-- autoplay="autoplay" -->
+              <source src="../media/Ed Sheeran - Photograph.m4a" type="audio/mp4" />
+              </audio>
+            </div>
+            <div id="morceau3">
+            <p>Titanium - David Guetta feat Sia</p>
+            <audio  loop="loop" controls="controls" > <!-- autoplay="autoplay" -->
+            <source src="../media/David Guetta - Titanium ft. Sia.m4a" type="audio/mp4" />
+            </audio>
+          </div>
+
+  				    </article>
+  					</article>
+  				</section>
+  			</div> <!-- fin id="page"-->
+      </div>
+    </div>
+  </body>
+</html>

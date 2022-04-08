@@ -1,0 +1,132 @@
+*{
+  font-family: monospace;
+  text-decoration: none;
+}
+body{
+  padding : 26px; padding-top : 20px;
+}
+.article01 {
+  border: solid;
+}
+
+h1:hover #imgCompetences, h1:hover #imgExperience, h1:hover #imgLoisirs {
+  display: inline;
+}
+#nom a {
+  padding : 29.250px;
+  text-decoration: none;
+}
+#nom p {
+  margin : 0;
+  font-size: 29.25px;
+}
+header h1 {
+  color: #DA70D6;
+  text-shadow: #FF00FF 1px 0 15px;
+  font-size : 87.75px;
+  padding : 21.938px;padding-bottom: 0;
+  margin : 0;
+  font-weight: 700;
+}
+header h1:hover {
+  color : #FF00FF;
+  text-shadow: #FF00FF 1px 0 15px;
+}
+header p{
+  padding: 0;
+  text-align: center;
+  color : #00BFFF;
+  text-shadow: #00FFFF 1px 0 15px;
+}
+nav{
+  margin-top : 50px;
+  top : 13px;
+}
+#menuPrincipal {
+  margin-bottom: 0;
+}
+#menuPrincipal li {
+  border-top-width: 6.5px;
+  padding-top : 6.5px; padding-bottom: 6.5px;
+}
+#menuPrincipal li a {
+  padding : 19.5px;
+}
+h1{
+  font-size: 150%;
+  text-align: center;
+
+}
+p, a {
+  font-size: 150%;
+  padding: 1em;
+  text-align: justify;
+  text-decoration: none;
+  margin: 0;
+}
+.article01 {
+  position: relative;
+  margin-left: 5em; margin-right: 5em; margin-bottom: 2em;
+}
+
+.article > h1 {
+  text-align: center;
+  font-size: 32.5px;
+  padding: 17.250px;
+  margin : 0;
+  font-weight: 700;
+  color: #000000;
+}
+.article{
+  border: solid;
+  background-color: #BDBDBD;
+}
+.article p {
+  padding: 19.5px;
+  font-size: 19.5px;
+  line-height: normal;
+  color : #000000;
+}
+
+#sec1 {
+  margin-top : 32px;
+  padding-left: 26px; padding-right: 26px;
+  padding-top: 13px; padding-bottom: 13px;
+
+}
+
+#sec1 h1 {
+  background-color: #A4A4A4
+}
+.article01>h1 {
+  margin :0;
+  padding : 19.5px;
+}
+.article01 a h1{
+  text-align: center;
+  margin: 0;
+  padding : 1em;
+  font-size: 125%;
+  color : #000000;
+}
+
+.article01 a {
+  padding : 0;
+}
+
+.article01:hover h1 {
+  background-color: #424242;
+}
+table td, table th, table{
+  text-align: center;
+  border: solid;
+  border-collapse: separate;
+}
+table {
+  margin-top: 1em; margin-bottom: 1em;
+  position : relative;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}

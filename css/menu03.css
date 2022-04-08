@@ -1,0 +1,146 @@
+*{
+  margin : 0;
+  padding: 0;
+  text-decoration: none;
+  cursor : url(../images/curseur/pinksword.png), default;
+}
+li:hover, li:hover>a, a:hover, a>h1:hover{
+  cursor : url(../images/curseur/bluesword.png), pointer;
+}
+#imgCompetences, #imgExperience, #imgLoisirs{
+  display: none;
+  position: absolute;
+  height: 1em;
+}
+
+#imgCompetences{
+  left : 2em;
+  top : 9.5%;
+}
+#imgExperience{
+  left : 2em;
+  top : 9%;
+}
+#imgLoisirs{
+  left : 2em;
+  top : 9.5%;
+}
+body{
+  background: url(../images/pixel.gif) top no-repeat, url(../images/pixel.jpg) repeat;
+}
+
+#nom {
+  position: absolute;
+  top : 0;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1em;
+  text-align: center;
+}
+
+nav {
+  z-index: 5;
+  list-style-type: none;
+  margin-right: auto;
+  margin-left: auto;
+  display: inline-block;
+  float:left;
+  height: auto;
+  width: auto;
+
+}
+
+#menu {
+  z-index: 6;
+  position : absolute;
+  top : 1em;
+  left : 1em;
+  width: 5em;height: 5em;
+  background-image: url(../images/menu.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+#menu:hover {
+  width: auto;
+  background-image: none;
+  left: 0;
+  right: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+#menu:hover #menuPrincipal {
+  display: block;
+}
+#menuPrincipal {
+  display: none;
+  position: sticky;
+  top : 2em;
+  left: 1em;
+  width : 100%;
+  margin-left: 1em;
+  padding-top: 10em;
+
+}
+#menu a{
+  text-decoration: none;
+  color : #DA70D6;
+  font-size: 100%
+}
+
+#menuPrincipal li {
+  text-align: center;
+  display: block;
+  border-top: solid 3px;
+  border-bottom-left-radius: 1em;border-bottom-right-radius: 1em;
+  padding-top : 1.5em; padding-bottom: 1.5em;
+  margin-left: 1em;margin-right: 1em; margin-bottom: 1em;
+  border-color: #FF00FF;
+  background-color: #000000;
+  box-shadow: 5px 7px 10px #1C1C1C;
+}
+
+#menuPrincipal li:hover{
+  font-weight: bold;
+  background-color : #000000;
+  border-color: #00FFFF;
+}
+#menuPrincipal li:hover a {
+  color : #00BFFF;
+  text-shadow: #00BFFF 1px 0 10px;
+}
+.loisirsnav {
+  display: none;
+  width: 100%;
+  left: 0;
+  padding-top: 1em;  margin-bottom: 1em;
+}
+
+.loisirsnav li {
+  background-color: #F5A9A9;
+  border-top-left-radius: 1em;border-top-right-radius: 1em;
+  font-size: 90%;
+}
+.active:hover .loisirsnav {
+  display: block;
+}
+.active:hover .loisirsnav a{
+  font-weight: normal;
+  color: #FFFFFF;
+  text-shadow: #00BFFF 1px 0 30px;
+  font-size: 0.7em;
+}
+.active .loisirsnav li:hover a{
+  color : #000000;
+  text-shadow: #00BFFF 1px 0 30px;
+}
+.article{
+  border: solid;
+  background-color: #BDBDBD;
+}
+#sec1{
+  z-index: -1;
+  margin-top : 18em;
+}

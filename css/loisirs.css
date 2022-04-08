@@ -1,0 +1,76 @@
+li {
+  list-style-type: none;
+}
+table td, table th{
+  text-align: center;
+  border-collapse: separate;
+}
+table {
+  display: inline-table;
+  position : relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.listeIn {
+  padding-left: 5em;
+  font-size: 75%;
+}
+td {
+  border-bottom: dotted;
+}
+th {
+  padding : 0.80em;
+  background-color: #A4A4A4;
+}
+.vide {
+  border: grey;
+}
+.haut th{
+  border-bottom: solid;
+}
+.gauche{
+  border-right: solid;
+}
+#x{
+  border-bottom: none; border-right: none;
+}
+table {
+  border: solid;
+}
+.plein:hover {
+  color : #00FFFF;
+  background-color: #A4A4A4;
+  border-radius: 0.5em;
+}
+.haut th:hover, .gauche:hover{
+  color : #00FFFF;
+  background-color: #A4A4A4;
+  border-radius: 0.5em;
+}
+table:hover {
+  border-color : #FF00FF;
+  background-color: #A4A4A4;
+  border-radius: 0.5em;
+}
+th a {
+  color: #000000;
+}
+th a:hover {
+  color : #00FFFF;
+}
+#cache {
+  display: none;
+}
+body {
+  background: url(../images/pixel.gif) top no-repeat, url(../images/pixel.jpg) repeat;
+  background-size: cover;
+}
+#morceau1, #morceau2, #morceau3 {
+  text-align: center;
+  text-decoration: underline;
+}

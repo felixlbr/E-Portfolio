@@ -1,0 +1,112 @@
+*{
+  margin : 0;
+  padding: 0;
+  text-decoration: none;
+  cursor : url(../images/curseur/pinksword.png), default;
+}
+li:hover, li:hover>a, a:hover, a>h1:hover{
+  cursor : url(../images/curseur/bluesword.png), pointer;
+}
+#imgCompetences, #imgExperience, #imgLoisirs{
+  display: none;
+  position: absolute;
+  height: 1em;
+}
+
+#imgCompetences{
+  left : 2em;
+  top : 9.5%;
+}
+#imgExperience{
+  left : 2em;
+  top : 9%;
+}
+#imgLoisirs{
+  left : 2em;
+  top : 9.5%;
+}
+
+body {
+  padding: 2em;
+  background: url(../images/pixel.gif) top no-repeat, url(../images/pixel.jpg) repeat;
+  background-size: contain;
+  /*linear-gradient(rgba(0, 0, 0, 0.7),
+        rgba(0,100,0, 0.7)), url(../images/hibiscus_tiled_gw.png);*/
+}
+
+#nom {
+  font-size: 150%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  /*background-image : linear-gradient(to bottom, #000000, #173B0B);*/
+}
+
+nav {
+  margin-top:5em;
+  z-index: 1;
+  position : sticky;
+  top : 1em;
+
+}
+
+#menuPrincipal {
+  padding-top : 0;
+}
+#menu a{
+  text-decoration: none;
+  color : #DA70D6;
+}
+
+#menuPrincipal li {
+  text-align: center;
+  display: inline-block;
+  width: 22.6%;
+  border-top: ridge 0.5em;
+  border-bottom-left-radius: 1em;border-bottom-right-radius: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin-left: 1%;
+  margin-right: 1%;
+  border-color: #FF00FF;
+  background-color: #000000;
+  box-shadow: 5px 7px 10px #1C1C1C;
+}
+
+#menuPrincipal li:hover{
+  font-weight: bold;
+  background-color : #000000;
+  border-color: #00FFFF;
+}
+#menuPrincipal li:hover a {
+  color : #00BFFF;
+  text-shadow: #00BFFF 1px 0 10px;
+}
+.loisirsnav {
+  color : #000000;
+  display: none;
+  position : absolute;
+  width: 100%;
+  left: 0;
+  padding-top: 1em;
+}
+
+.loisirsnav li {
+  background-color: #F5A9A9;
+}
+.active:hover .loisirsnav {
+  display: block;
+}
+.active:hover .loisirsnav a{
+  font-weight: normal;
+  color: #FFFFFF;
+  text-shadow: #00BFFF 1px 0 30px;
+}
+.loisirsnav li:hover a{
+  color : #000000;
+  text-shadow: #00BFFF 1px 0 30px;
+}
+#sec1 {
+  padding-top: 1em; padding-bottom: 1em;
+  margin-top: 3em;
+}
